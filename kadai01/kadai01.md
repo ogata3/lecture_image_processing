@@ -34,19 +34,19 @@ IMG2 = imresize(IMG,4,'box'); % 画像の拡大
 IMG = imresize(IMG,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,8,'box'); % 画像の拡大
 
-![原画像](https://github.com/mackhasegawa/lecture_image_processing/blob/master/image/kadai1_3.png?raw=true)  
+![原画像]()  
 図4 1/8サンプリング
 
 IMG = imresize(IMG,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,16,'box'); % 画像の拡大
 
-![原画像](https://github.com/mackhasegawa/lecture_image_processing/blob/master/image/kadai1_4.png?raw=true)  
+![原画像]()  
 図5 1/16サンプリング
 
 IMG = imresize(IMG,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,32,'box'); % 画像の拡大
 
-![原画像](https://github.com/mackhasegawa/lecture_image_processing/blob/master/image/kadai1_5.png?raw=true)  
+![原画像]()  
 図6 1/32サンプリング
 
 である．
