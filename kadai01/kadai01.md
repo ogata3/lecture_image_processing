@@ -26,7 +26,7 @@ IMG2 = imresize(IMG,4,'box'); % 画像の拡大
 
 とする．1/4サンプリングの結果を図３に示す．
 
-![原画像]()  
+![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai01/kadai1_3.png?raw=true)  
 図3 1/4サンプリング
 
 1/8から1/32サンプリングは，
@@ -34,19 +34,19 @@ IMG2 = imresize(IMG,4,'box'); % 画像の拡大
 IMG = imresize(IMG,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,8,'box'); % 画像の拡大
 
-![原画像]()  
+![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai01/kadai1_4.png?raw=true)  
 図4 1/8サンプリング
 
 IMG = imresize(IMG,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,16,'box'); % 画像の拡大
 
-![原画像]()  
+![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai01/kadai1_5.png?raw=true)  
 図5 1/16サンプリング
 
 IMG = imresize(IMG,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,32,'box'); % 画像の拡大
 
-![原画像]()  
+![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai01/kadai1_6.png?raw=true)  
 図6 1/32サンプリング
 
 である．
