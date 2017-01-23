@@ -6,13 +6,13 @@
 2階調，4階調，8階調での画像の表示を行い，それによる移り変わり，及び階調特性による擬似輪郭を確認する．
 まず始めに原画像の入力，原画像をグレースケール画像に変換し，表示を行う．
 
-ORG=imread('Lenna.png'); % 原画像の入力
+ORG=imread('kadai02.jpg'); % 原画像の入力
 ORG = rgb2gray(ORG); colormap(gray); colorbar; % グレースケール画像へ変換
 imagesc(ORG); axis image; % 画像の表示
 
 結果を図1に示す．
 
-![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai02/kadai2_1.png?raw=true)
+![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai02/kadai2_1.png?raw=true)  
 図1 グレースケールに変換した原画像
 
 
@@ -26,7 +26,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 結果を図2に示す．
 
-![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai02/kadai2_2.png?raw=true)
+![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai02/kadai2_2.png?raw=true)  
 図2 2階調画像
 
 同様に4階調の画像生成を次のように行う．
@@ -39,7 +39,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 結果を図3に示す．
 
-![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai02/kadai2_3.png?raw=true)
+![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai02/kadai2_3.png?raw=true)  
 図3 4階調画像
 
 8階調の画像生成は次のように行う．
@@ -56,5 +56,5 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 結果を図4に示す．
 
-![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai02/kadai2_4.png?raw=true)
+![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai02/kadai2_4.png?raw=true)  
 図4 8階調画像
