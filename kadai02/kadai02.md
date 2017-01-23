@@ -15,6 +15,7 @@ imagesc(ORG); axis image; % 画像の表示
 ![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai02/kadai2_1.png?raw=true)  
 図1 グレースケールに変換した原画像
 
+
 グレースケール画像は8ビットの画像であり，濃淡を2の8乗，つまり256階調で表している．  
 これを2階調の画像にするには基準となる値を設け，2つに分ければ良い．  
 今回は128を境に分けている．  
@@ -25,5 +26,5 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 結果を図2に示す．
 
-![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai02/kadai2_2.png?raw=true)  
+![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai02/kadai2_2.png?raw=true)  
 図2 2階調画像
