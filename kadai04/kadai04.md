@@ -8,8 +8,8 @@
 まず原画像を白黒濃淡画像に変換し，出力する．
 次のように行う．
 
-ORG=imread('kadai04.png'); % 原画像の入力
-ORG=rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換
+ORG=imread('kadai04.png'); % 原画像の入力  
+ORG=rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換  
 imagesc(ORG); colormap(gray); colorbar;
 
 結果を図1に示す．
