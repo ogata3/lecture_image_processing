@@ -19,7 +19,7 @@
 
 プログラムを下に示す．
 
-IMG = dither(ORG); % ディザ法による二値化
+IMG = dither(ORG); % ディザ法による二値化  
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 
 実行結果を図3に示す．
