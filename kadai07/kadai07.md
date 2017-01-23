@@ -16,13 +16,13 @@
 次に，ダイナミックレンジの拡大を行う．
 プログラムを下に示す．
 
-ORG = double(ORG);
-mn = min(ORG(:)); % 濃度値の最小値を算出
-mx = max(ORG(:)); % 濃度値の最大値を算出
-ORG = (ORG-mn)/(mx-mn)*255;
-imagesc(ORG); colormap(gray); colorbar; % 画像の表示
-pause;
-ORG = uint8(ORG); % この行について考察する
+ORG = double(ORG);  
+mn = min(ORG(:)); % 濃度値の最小値を算出  
+mx = max(ORG(:)); % 濃度値の最大値を算出  
+ORG = (ORG-mn)/(mx-mn)*255;  
+imagesc(ORG); colormap(gray); colorbar; % 画像の表示  
+pause;  
+ORG = uint8(ORG); % この行について考察する  
 imhist(ORG); % 濃度ヒストグラムを生成、表示
 
 実行結果を図3,4に示す．
@@ -33,6 +33,6 @@ imhist(ORG); % 濃度ヒストグラムを生成、表示
 ![濃度ヒストグラム](https://github.com/ogata3/lecture_image_processing/blob/master/kadai07/kadai7_4.png?raw=true)
 図4 ダイナミックレンジ拡大後の濃度ヒストグラム
 
-ORG = uint8(ORG);について
+ORG = uint8(ORG);について  
 元々画素の濃淡は8ビットの整数によって定義されているが，計算による誤差を小さくするために
 浮動小数点数への変換を行っているので，濃度ヒストグラムを生成前に8ビットの整数へ戻している．
