@@ -17,7 +17,7 @@ imagesc(ORG); axis image; % 画像の表示
 
 
 グレースケール画像は8ビットの画像であり，濃淡を2の8乗，つまり256階調で表している．  
-これを2階調の画像にするには，256階調を基準となる値を設けることで2つに分ければ良い．  
+これを2階調の画像にするには，256階調に対し基準となる値を設けることで階調を2つに分ければ良い．  
 今回は128を境に分けている．  
 2階調画像の生成は次のように行う．
 
@@ -28,3 +28,4 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 ![原画像](https://github.com/ogata3/lecture_image_processing/blob/master/kadai02/kadai2_2.png?raw=true)  
 図2 2階調画像
+同様に
